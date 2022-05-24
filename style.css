@@ -1,4 +1,54 @@
 
+/* header */
+.entete{
+    display: grid;
+    grid-template : 1fr 1fr / 2fr 1fr;
+    grid-column-gap : 10px ;
+    grid-row-gap : 0px ;
+    padding: 20px;
+    background-color: white;
+}
+.sb > input{
+    width: 580px;
+    height: 30px;
+    border-radius: 20px;
+    background-color:  rgb(228, 234, 240);
+}
+
+.recherche{
+    margin: 10 px;
+
+}
+.recherche > span {
+    margin: 20 px;
+    padding: 10px ;
+}
+.recherche :nth-child(4) {
+    margin: 20 px;
+    padding: 0px ;
+}
+
+.buttom{
+    color : white;
+    font-weight: bold;
+    font-size:20px;
+    border-radius: 20px;
+    background-color:blue;
+    
+}
+
+.hithere{
+    display: flex;
+    align-items: center;
+}
+.hithere > div{
+   
+    margin: 20 px;
+    padding: 10px ;
+    
+}
+
+
 body{
     display: grid;
     height: 100vh;
@@ -16,9 +66,7 @@ body{
     height: 100vh;
     grid-template-rows: 1.5fr 3.5fr;
     }
-    .entete{
-    background-color: aqua;
-    }
+  
     .corps{
     display: grid;
     height: 80vh;
@@ -44,8 +92,6 @@ body{
     background-color:white;
 
 }
-
-
     .partie2{
     background-color:  rgb(228, 234, 240);
     }
@@ -56,6 +102,7 @@ body{
     padding: 10px ;
     
 }
+
 
     
 
