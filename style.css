@@ -29,7 +29,23 @@ body{
     
     
     main{
+
+    background-color: blue;
+    
+    }
+    .Dashboard{
+        color: white;
+        font-size: 10px;
+    }
+    .menu{
+
+        color: white;
+        font-family: bold;
+
+
+}
+
     background-color: rgb(245, 220, 220);
     
     }
-    
+
