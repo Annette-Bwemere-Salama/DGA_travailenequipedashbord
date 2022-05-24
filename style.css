@@ -1,6 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
 :root {
-    --main-color: #DD2FGE;
-    --color-dar
+    --main-radius: 5px;
+    --main-padding: 5px;
 }
+.Container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fc 1.5fr 1.2fr 0.8fr; 
+    grid-template-areas: 
+      "nav nav nav"
+      "sidebar main main main"
+      "sidebar content1 content2 content3"
+      "sidebar footer footer footer";
+
+    grid-gap:0.2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 12px;
+    color:rgb(240, 239, 247);
+
+
+}
+nav span{
+    background-color: rgb(14, 6, 6);
+}
+nav{
+    background: rgb(40, 56, 227);
+    margin-left: 4px;
+}
+
+main{
+    background-color: aliceblue;
+}
+
+
+
+
