@@ -1,0 +1,22 @@
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+  
+}
+header{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1.5fr 3.5fr;
+}
+.entete{
+    background-color: aqua;
+}
+.corps{
+    background-color: rgb(166, 255, 0);
+}
+
+main{
+    background-color: rgb(245, 220, 220);
+
+}
