@@ -26,7 +26,7 @@ body{
     }
     
     .partie1{
-    background-color: rgb(166, 255, 0);
+    background-color: rgb(228, 234, 240);
     }
     .SP1{
         display: grid;
@@ -37,16 +37,26 @@ body{
     }
 .article{
     border-radius: 10px;
-    background-color: rgb(195, 201, 206);
+    border-left: 10px solid rgb(255, 187, 0);
+    padding-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
+    background-color:white;
 
 }
-  
-
 
 
     .partie2{
-    background-color: brown;
+    background-color:  rgb(228, 234, 240);
     }
+
+.icon > span{
+    float: right;
+    margin: 20 px;
+    padding: 10px ;
+    
+}
+
     
 
 
