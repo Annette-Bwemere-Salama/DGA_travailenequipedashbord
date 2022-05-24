@@ -13,8 +13,20 @@ header{
     background-color: aqua;
 }
 .corps{
+    display: grid;
+    height: 80vh;
+    grid-template-columns: 3.5fr 1.5fr;
+}
+
+.partie1{
     background-color: rgb(166, 255, 0);
 }
+.partie2{
+    background-color: brown;
+}
+
+
+
 
 main{
     background-color: rgb(245, 220, 220);
