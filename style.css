@@ -4,6 +4,13 @@ body{
     height: 100vh;
     grid-template-columns: 1fr 4fr;
     }
+
+    main{
+
+        background-color: rgb(245, 220, 220);
+        min-height: 100vh;
+        }
+
     header{
     display: grid;
     height: 100vh;
@@ -21,14 +28,26 @@ body{
     .partie1{
     background-color: rgb(166, 255, 0);
     }
+    .SP1{
+        display: grid;
+        grid-template : 1fr 1fr 1fr / 1fr 1fr;
+        grid-column-gap : 20px ;
+        grid-row-gap : 20px ;
+        padding: 20px;
+    }
+.article{
+    border-radius: 10px;
+    background-color: rgb(195, 201, 206);
+
+}
+  
+
+
+
     .partie2{
     background-color: brown;
     }
     
-    
-    
-    main{
-    background-color: rgb(245, 220, 220);
-    
-    }
+
+
     
