@@ -29,17 +29,44 @@ body{
     
     
     main{
-    background-color: blue;
+    background-color: #0008f8;
     
     }
-    .Dashboard{
-        color: white;
-        font-size: 10px;
-    }
+
     .menu{
 
         color: white;
         font-family: bold;
 
 
+}
+.Announcements{
+    font-size: 12px;
+    padding: 15px;
+    margin-left: 10px;
+    color:black;
+    display: colom;
+  }
+  .Announcements h1{
+    font-size: 15px;  
+  }
+.menu li{
+    list-style-type: none;
+    margin:10px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+    
+}
+.divers{
+    background-color: rgba(255, 255, 255, 0.311);
+}
+.Dashboard{
+ color:white;
+ font-size: 15px;   
+}
+.trending{
+    list-style: none;
+    border-radius: 50px; 
 }
