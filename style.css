@@ -29,7 +29,12 @@ body{
     
     
     main{
+/*<<<<<<< HEAD*/
     background-color: #0008f8;
+/*=======*/
+
+    background-color: blue;
+/*>>>>>>> c6caf49da1ef795bba64e5dac739f345e04b77de*/
     
     }
 
@@ -40,6 +45,7 @@ body{
 
 
 }
+/*<<<<<<< HEAD*/
 .Announcements{
     font-size: 12px;
     padding: 15px;
@@ -70,3 +76,10 @@ body{
     list-style: none;
     border-radius: 50px; 
 }
+/*=======*/
+
+  /*  background-color: rgb(245, 220, 220);*/
+    
+  /*  }
+
+/*>>>>>>> c6caf49da1ef795bba64e5dac739f345e04b77de*/
