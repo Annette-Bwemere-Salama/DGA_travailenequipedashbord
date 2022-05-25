@@ -151,6 +151,7 @@ body{
     display: colom;
     background: white;
     margin-right: 20px;
+    border-radius: 10px;
     
   }
   .Announcements h1{
@@ -162,11 +163,7 @@ body{
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
-   
-    
-}
-.divers{
-    background-color: rgba(255, 255, 255, 0.311);
+ 
 }
 .Dashboard{
  color:white;
@@ -175,7 +172,6 @@ body{
 
 }
 .Trd{
-    font-size: 18px;
     margin: 40px 30px 10px 8px;
 }
 .trending{
@@ -187,6 +183,7 @@ background: white;
 margin:10px;
 margin-right: 20px;
 display: grid;
+border-radius: 10px;
 grid-template-columns: 1fr;
 grid-template-rows: repeat(3, 1fr);
 grid-column-gap: 0px;
@@ -200,11 +197,11 @@ grid-row-gap: 0px;
 .div4 { grid-area: 4 / 2 / 5 / 3; } 
 
 .trending p{
-margin-left: 30px;
-margin-top: auto;
+margin-left: 20px;
+
 }
 .trending img{
-    width: 59px;
+    width: 80px;
 }
 .sitemaintenance p{
     border-bottom-style: ridge;
@@ -219,3 +216,16 @@ margin-top: auto;
     
 }
 
+
+.trending1{
+    display: flex;
+}
+.trending2{
+    display: flex;
+}
+.trending3{
+    display: flex;
+}
+.trending4{
+    display: flex;  
+}
