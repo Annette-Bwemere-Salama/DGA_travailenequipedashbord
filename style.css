@@ -150,6 +150,7 @@ body{
     color:black;
     display: colom;
     background: white;
+    margin-right: 20px;
     
   }
   .Announcements h1{
@@ -173,6 +174,10 @@ body{
  text-align: center; 
 
 }
+.Trd{
+    font-size: 18px;
+    margin: 40px 30px 10px 8px;
+}
 .trending{
 font-size: 12px;
 padding: 15px;
@@ -180,11 +185,13 @@ color:black;
 display: colom;
 background: white;
 margin:10px;
+margin-right: 20px;
 display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: repeat(3, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
+
 }
         
 .div1 { grid-area: 2 / 3 / 3 / 4; }
@@ -197,7 +204,7 @@ margin-left: 30px;
 margin-top: auto;
 }
 .trending img{
-    width: 65px;
+    width: 59px;
 }
 .sitemaintenance p{
     border-bottom-style: ridge;
