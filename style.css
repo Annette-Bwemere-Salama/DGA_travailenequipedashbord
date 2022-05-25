@@ -10,46 +10,68 @@
     background-color: white;
 }
 .sb > input{
-    width: 580px;
+    width: 550px;
     height: 30px;
+    border: 0px solid transparent;
     border-radius: 20px;
     background-color:  rgb(228, 234, 240);
 }
 
-.recherche{
-    margin: 10 px;
-
+.recherche1{
+    margin-top: 20px;
+    text-align: left;
 }
+.recherche1 > span{
+    margin: 10px;
+    
+}
+
 .recherche > span {
     margin: 20 px;
     padding: 10px ;
 }
-.recherche :nth-child(4) {
-    margin: 20 px;
-    padding: 0px ;
+
+.recherche2{
+    margin: 20px;
+    text-align: center;  
 }
-.recherche :nth-child(2) > span{
-    text-align: left;
-}
+.recherche2 > span{
+    margin: 10px;
+} 
+
 
 .buttom{
     color : white;
     font-weight: bold;
     font-size:20px;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color:blue;
+    padding: 10px;
+  
     
+}
+.recherche4 {
+    display: flex;
+    text-align: left;
+    align-items: center; 
+}
+.recherche4 > input {
+    margin: 10px;
 }
 
 .hithere{
     display: flex;
     align-items: center;
+    
 }
 .hithere > div{
    
     margin: 20 px;
     padding: 10px ;
     
+}
+.hsp1{
+    padding-left: 20px;
 }
 
 
@@ -71,7 +93,12 @@ body{
     grid-template-rows: 1fr 4fr;
     background-color: rgb(228, 234, 240);
     }
-  
+    .user:nth-child(2){
+        font-size: 30px;
+    }
+    .user:nth-child(1){
+        font-size: 50px;
+    }
     .corps{
     display: grid;
     height: 100%;
