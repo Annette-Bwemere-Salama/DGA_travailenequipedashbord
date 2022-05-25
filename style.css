@@ -29,9 +29,12 @@ body{
     
     
     main{
+<<<<<<< HEAD
 /*<<<<<<< HEAD*/
     background-color: #0008f8;
 /*=======*/
+=======
+>>>>>>> c6caf49da1ef795bba64e5dac739f345e04b77de
 
     background-color: blue;
 /*>>>>>>> c6caf49da1ef795bba64e5dac739f345e04b77de*/
@@ -45,6 +48,7 @@ body{
 
 
 }
+<<<<<<< HEAD
 /*<<<<<<< HEAD*/
 .Announcements{
     font-size: 12px;
@@ -85,3 +89,10 @@ body{
   /*  }
 
 /*>>>>>>> c6caf49da1ef795bba64e5dac739f345e04b77de*/
+=======
+
+    background-color: rgb(245, 220, 220);
+    
+    }
+
+>>>>>>> c6caf49da1ef795bba64e5dac739f345e04b77de
